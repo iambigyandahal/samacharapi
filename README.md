@@ -13,7 +13,18 @@ Currently you don't need to use and API key. Please contact through details prov
 
 To get all latest news make a GET request to the following endpoint:
 
-`https://samacharapi.herokuapp.com/api/news/`
+`https://samacharapi.herokuapp.com/api/news/`  
+
+## Get News from specific sites
+
+`https://samacharapi.herokuapp.com/api/news/${sitename}`  
+
+### Sitenames
+
+Currently supported sites are:
+
+- OnlineKhabar
+- NagarikNews
 
 ## Status Codes
 
